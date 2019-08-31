@@ -66,4 +66,7 @@ print(terry.first_name + " " + terry.last_name)
 print(terry.eyelids)
 print(terry.water)
 
+ def __init__(self, firstName, lastName, idNumber, scores):
+        super().__init__(firstName, lastName, idNumber)
+        self.scores = scores
 
