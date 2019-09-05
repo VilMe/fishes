@@ -51,6 +51,20 @@ class Anemone:
 class CoralReef(Coral, Anemone):
     pass
 
+
+# In [32]: def toBinary(numb): 
+#     ...:     binary_number = '' 
+#     ...:     if numb: 
+#     ...:         current_numb = numb % 2 
+#     ...:         numb //= 2 
+#     ...:         binary_number += str(current_numb) 
+#     ...:         while numb: 
+#     ...:             current_numb = numb % 2 
+#     ...:             binary_number = str(current_numb) + binary_number 
+#     ...:             numb //= 2 
+#     ...:     return binary_number
+the binary_number function can be performed with only arithmetic
+using multples of 10...
         
 
 # terry = Trout("Terry")
