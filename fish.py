@@ -63,8 +63,8 @@ class CoralReef(Coral, Anemone):
 #     ...:             binary_number = str(current_numb) + binary_number 
 #     ...:             numb //= 2 
 #     ...:     return binary_number
-the binary_number function can be performed with only arithmetic
-using multples of 10...
+# the binary_number function can be performed with only arithmetic
+# using multples of 10...
         
 
 # terry = Trout("Terry")
@@ -90,8 +90,7 @@ terry.first_name = "Terry"
 print(terry.first_name + " " + terry.last_name)
 print(terry.eyelids)
 print(terry.water)
-
- def __init__(self, firstName, lastName, idNumber, scores):
-        super().__init__(firstName, lastName, idNumber)
-        self.scores = scores
+great_barrier = CoralReef()
+great_barrier.community()
+great_barrier.protect_clownfish()
 
