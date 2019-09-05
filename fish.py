@@ -48,6 +48,9 @@ class Anemone:
     def protect_clownfish(self):
         print("The anemone is protecting the clownfish")
 
+class CoralReef(Coral, Anemone):
+    pass
+
         
 
 # terry = Trout("Terry")
