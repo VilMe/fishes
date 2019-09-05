@@ -39,6 +39,14 @@ class Shark(Fish):
     def swim_backwards(self):
         print("The shark cannot swim backwards, but can sink backwards.")
 
+class Coral:
+
+    def community(self):
+        print("Coral lives in a community")
+
+class Anemone:
+    def protect_clownfish(self):
+        print("The anemone is protecting the clownfish")
 
         
 
